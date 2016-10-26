@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on Xiaolin ZENG&#39;s</title>
+    <link>/tags/teaching/</link>
+    <description>Recent content in Teaching on Xiaolin ZENG&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>yolo</copyright>
+    <lastBuildDate>Wed, 27 Jan 2016 15:54:17 +0100</lastBuildDate>
+    <atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TD processus stochastiques M1 ENSL 2016</title>
+      <link>/2016/01/tdsto2016/</link>
+      <pubDate>Wed, 27 Jan 2016 15:54:17 +0100</pubDate>
+      
+      <guid>/2016/01/tdsto2016/</guid>
+      <description>
+
+&lt;h3 id=&#34;feuilles-de-td:72931c482877577e1f9e16d9738ebc40&#34;&gt;Feuilles de TD&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/corr.pdf&#34;&gt;Clarification&lt;/a&gt; de quelques exercices.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/loi-conditionnelle-Levy.pdf&#34;&gt;Loi conditionnelle&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/dm-markov.pdf&#34;&gt;DM Processus de Markov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD1.pdf&#34;&gt;TD-1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD2.pdf&#34;&gt;TD-2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD3.pdf&#34;&gt;TD-3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD4.pdf&#34;&gt;TD-4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD5.pdf&#34;&gt;TD-5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD6.pdf&#34;&gt;TD-6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD7.pdf&#34;&gt;TD-7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD8.pdf&#34;&gt;TD-8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD9.pdf&#34;&gt;TD-9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sto2016/TD10.pdf&#34;&gt;TD-10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agreg2015 Option A proba</title>
+      <link>/2015/10/agregoptiona2015/</link>
+      <pubDate>Tue, 27 Oct 2015 15:54:17 +0100</pubDate>
+      
+      <guid>/2015/10/agregoptiona2015/</guid>
+      <description>
+
+&lt;h3 id=&#34;documents:594cbc3962a8012da20e60dd87e22372&#34;&gt;Documents&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/DM-mart.pdf&#34;&gt;DM-1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/DM-mart2.pdf&#34;&gt;DM-2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;cours:594cbc3962a8012da20e60dd87e22372&#34;&gt;Cours&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chaîne de Markov
+
+&lt;ul&gt;
+&lt;li&gt;Propriété de Markov&lt;/li&gt;
+&lt;li&gt;Classification des états&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Transformée de Laplace&lt;/li&gt;
+&lt;li&gt;Martingale
+
+&lt;ul&gt;
+&lt;li&gt;Les théorèmes de convergence&lt;/li&gt;
+&lt;li&gt;Martingale $L^2$&lt;/li&gt;
+&lt;li&gt;Uniforme intégrabilité&lt;/li&gt;
+&lt;li&gt;Les inégalités de Doob&lt;/li&gt;
+&lt;li&gt;Black Scholes discrète&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Statistiques
+
+&lt;ul&gt;
+&lt;li&gt;Statistiques exploratoires (+ analyse en composant principal)&lt;/li&gt;
+&lt;li&gt;Statistiques inférentielles
+
+&lt;ul&gt;
+&lt;li&gt;Généralités: décision statistiques&lt;/li&gt;
+&lt;li&gt;Estimateurs pontuels&lt;/li&gt;
+&lt;li&gt;Tests d&amp;rsquo;hypothèses&lt;/li&gt;
+&lt;li&gt;Intervalles de confiance&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agreg2015 tronc commun</title>
+      <link>/2015/10/prepaagreg2015/</link>
+      <pubDate>Tue, 27 Oct 2015 15:54:17 +0100</pubDate>
+      
+      <guid>/2015/10/prepaagreg2015/</guid>
+      <description>
+
+&lt;p&gt;Pour les documents, voir la page perso de &lt;a href=&#34;http://perso.ens-lyon.fr/sebastien.martineau&#34;&gt;S.Martineau&lt;/a&gt;, y compris un &lt;a href=&#34;http://perso.ens-lyon.fr/sebastien.martineau/Cours_proba.pdf&#34;&gt;cours&lt;/a&gt;. Voir aussi le cours tapé par &lt;a href=&#34;https://lavigneflorian.wordpress.com/&#34;&gt;Lavigne&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;liste-des-documents-complémentaires:c80f0a081aeba563825114d76b97d146&#34;&gt;Liste des documents complémentaires&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/calculLoi.pdf&#34;&gt;Calcul des lois&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/exercices.pdf&#34;&gt;Feuille des TD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sujet2.html&#34;&gt;note sujet2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;cours:c80f0a081aeba563825114d76b97d146&#34;&gt;Cours&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introduction et base
+
+&lt;ul&gt;
+&lt;li&gt;Espace probabilisé&lt;/li&gt;
+&lt;li&gt;Variable aléatoire&lt;/li&gt;
+&lt;li&gt;Indépendance&lt;/li&gt;
+&lt;li&gt;Fonction de répartition&lt;/li&gt;
+&lt;li&gt;Fonction caractéristique
+
+&lt;ul&gt;
+&lt;li&gt;Théorème Inverse Fourier&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Transformée de Laplace&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Les grands théorèmes de convergence
+
+&lt;ul&gt;
+&lt;li&gt;Borel-Cantelli&lt;/li&gt;
+&lt;li&gt;Modes de convergence&lt;/li&gt;
+&lt;li&gt;Théorème centrale limite&lt;/li&gt;
+&lt;li&gt;Lois des grands nombres&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Conditionnement
+
+&lt;ul&gt;
+&lt;li&gt;Lois conditionnelles&lt;/li&gt;
+&lt;li&gt;Noyau de transition&lt;/li&gt;
+&lt;li&gt;Espérance conditionnelle
+
+&lt;ul&gt;
+&lt;li&gt;Cas $L^1$, positive, $L^2$&lt;/li&gt;
+&lt;li&gt;Des propriétés de l&amp;rsquo;espérance conditionnelle&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Vecteurs Gaussiens&lt;/li&gt;
+&lt;li&gt;Marches aléatoires simples&lt;/li&gt;
+&lt;li&gt;Grande déviation&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

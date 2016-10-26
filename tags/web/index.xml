@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Xiaolin ZENG&#39;s</title>
+    <link>/tags/web/</link>
+    <description>Recent content in Web on Xiaolin ZENG&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>yolo</copyright>
+    <lastBuildDate>Fri, 15 Apr 2016 13:05:55 +0200</lastBuildDate>
+    <atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo &#43; hyde quick static site implementation</title>
+      <link>/2016/04/hugo-hyde/</link>
+      <pubDate>Fri, 15 Apr 2016 13:05:55 +0200</pubDate>
+      
+      <guid>/2016/04/hugo-hyde/</guid>
+      <description>
+
+&lt;h2 id=&#34;install-needed-software:42b1606af2b869b6aed53ac1e03bedc3&#34;&gt;Install needed software&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;: if you use Homebrew, then brew update &amp;amp;&amp;amp; brew install hugo, for linux user you surely can figure it out yourself.&lt;/li&gt;
+&lt;li&gt;Your favorite text editor.&lt;/li&gt;
+&lt;li&gt;A Hugo theme which we will use: called &lt;a href=&#34;https://github.com/spf13/hyde&#34;&gt;Hyde&lt;/a&gt;, if you don&amp;rsquo;t know git, you can download it as &lt;a href=&#34;https://github.com/spf13/hyde/archive/master.zip&#34;&gt;zip&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;the-basics:42b1606af2b869b6aed53ac1e03bedc3&#34;&gt;The basics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;With Hugo, when we want to add a page to our site, we only focus on its content, which is contained in a &amp;ldquo;pagename.md&amp;rdquo; file in the ./contents/ folder. The &lt;em&gt;md&lt;/em&gt; filetype is short for the &lt;a href=&#34;https://daringfireball.net/projects/markdown/basics&#34;&gt;Markdown language&lt;/a&gt;, which is very intuitive (c.f. examples later).&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Let us say that we will store our website in a folder ~/mysite, all you need to do is&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;open a terminal, run &lt;em&gt;mkdir mysite&lt;/em&gt;, which create the directory &lt;em&gt;mysite&lt;/em&gt; under the home directory.&lt;/li&gt;
+&lt;li&gt;enter the directory by typing &lt;em&gt;cd mysite&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;run &lt;em&gt;hugo new site ./&lt;/em&gt;, you will see Hugo generates several folders and a config.toml configuration file in this folder&lt;/li&gt;
+&lt;li&gt;Extract the contents of the zip file into mysite/themes/hyde/, make sure that README.md is placed in mysite/themes/hyde/README.md&lt;/li&gt;
+&lt;li&gt;modify the config.toml file (using your text editor) as &lt;div&gt;&lt;a class=&#34;expander&#34; href=&#34;#&#34;&gt;here&lt;/a&gt;
+&lt;div class=&#34;hidedcontent&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt; baseurl = &amp;quot;~sitename/&amp;quot;
+ languageCode = &amp;quot;en-us&amp;quot;
+ title = &amp;quot;Timmy&#39;s&amp;quot;
+ theme = &amp;quot;hyde&amp;quot;
+ copyright = &amp;quot;yolo&amp;quot;
+
+ [Author]
+         name = &amp;quot;me&amp;quot;
+
+ [Permalinks]
+         blog = &amp;quot;/:year/:month/:filename/&amp;quot;
+         code = &amp;quot;/:filename/&amp;quot;
+         themeColor = &amp;quot;theme-base-0d&amp;quot;
+ [Taxonomies]
+         tag = &amp;quot;tags&amp;quot;
+         series = &amp;quot;series&amp;quot;
+         series-desc = &amp;quot;series-desc&amp;quot;
+
+ [params]
+         description = &amp;quot;home page&amp;quot;
+         twitter = &amp;quot;&amp;quot;
+         gplus = &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now we are ready to add our first page, run &lt;em&gt;hugo new colloq.md&lt;/em&gt;, this will create a file named colloq.md in the mysite/content/ folder. Let us say we add a page for a coming conference, now change the file content into &lt;div&gt;&lt;a class=&#34;expander&#34; href=&#34;#&#34;&gt;this&lt;/a&gt;
+&lt;div class=&#34;hidedcontent&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;+++
+date = &amp;quot;2016-04-14T20:25:55+02:00&amp;quot;
+title = &amp;quot;title of the page&amp;quot;
+type = &amp;quot;post&amp;quot;
+tags = [&amp;quot;conf&amp;quot;]
+
++++
+## Name of the conference
+### some big names
+
+-------------
+  * Date: 1990-01-01 --- 1990-01-07
+  * Place: UMPA
+  * Acces: [click here](http://www.umpa.ens-lyon.fr/acces.php)
+  * stuff: Timmy
+---------------
+Program:
+    - 10:00-10:30 welcome
+    - 1
+    - 2
+    - 3
+    - 4
+-----------------
+Summery
+    Some random results
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;&lt;/div&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Make sure to delete the &lt;em&gt;draft = true&lt;/em&gt; in the heading (if any) in order to make the page appear during the auto generation.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Now we are ready to test our site, just run&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo server --watch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will generate the site dynamically on localhost, you will see something like  &lt;em&gt;Web Server is available at &lt;a href=&#34;http://127.0.0.1:1313/&#34;&gt;http://127.0.0.1:1313/&lt;/a&gt;&lt;/em&gt;, open this address in your favorite navigator, it is already there. Note that if you modify your colloq.md file (or create another foo.md in /contents/ ), the page is updated dynamically, a handy way to test our new site.&lt;/p&gt;
+
+&lt;h2 id=&#34;customization:42b1606af2b869b6aed53ac1e03bedc3&#34;&gt;Customization&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Enable mathjax, which allows latex to be displayed. Just paste the following block into mysite/themes/hyde/layouts/partials/head.html (actually, any place that is included in the post page template works).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;
+   src=&amp;quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
+ &amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make some change to the sidebar, this can be done by changing /mysite/themes/hyde/layouts/partials/sidebar.html as you wish.&lt;/li&gt;
+&lt;li&gt;Make a customize sidebar menu, there are many way to do this, the most simple will be to maintain a menu manually in the config.toml file, by adding &lt;div&gt;&lt;a class=&#34;expander&#34; href=&#34;#&#34;&gt;this piece of codes.&lt;/a&gt;
+&lt;div class=&#34;hidedcontent&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;[[menu.main]]
+    name = &amp;quot;about me&amp;quot;
+    weight = 1
+    identifier = &amp;quot;about&amp;quot;
+    url = &amp;quot;/about/&amp;quot;
+ [[menu.main]]
+    name = &amp;quot;colloq&amp;quot;
+    weight = 2
+    identifier =&amp;quot;colloq&amp;quot;
+    url = &amp;quot;/colloq/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then, add the following html code to sidebar.html mentioned in the previous point (note that the menu is ordered by its entry weights):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;ul class=&amp;quot;sidebar-nav&amp;quot;&amp;gt;
+  {{ range .Site.Menus.sidemain.ByWeight }}
+         &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{.URL}}&amp;quot;&amp;gt; {{ .Name }} &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                     {{end}}
+
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lastly, you may also want to customize the home page, this can be achieved by modifying the mysite/themes/hyde/layouts/index.html file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;scripts:42b1606af2b869b6aed53ac1e03bedc3&#34;&gt;Scripts&lt;/h2&gt;
+
+&lt;p&gt;&lt;div&gt;&lt;a class=&#34;expander&#34; href=&#34;#&#34;&gt;ftp upload script&lt;/a&gt;
+&lt;div class=&#34;hidedcontent&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/sh
+HOST=&#39;perso.ens-lyon.fr&#39;
+USER=&#39;&#39;
+PASSWD=&#39;&#39;
+
+cd ~/hyde/
+rm -rf /home/user/tmp/hyde/public/tags/
+hugo
+
+lftp $HOST &amp;lt;&amp;lt;END_SCRIPT
+USER $USER $PASSWD
+mirror --overwrite -c -e -R ~/tmp/hyde/public/ /
+quit
+END_SCRIPT
+exit 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;appendix-some-markdown-https-sourceforge-net-p-hugo-generator-wiki-markdown-syntax-syntax:42b1606af2b869b6aed53ac1e03bedc3&#34;&gt;Appendix: some &lt;a href=&#34;https://sourceforge.net/p/hugo-generator/wiki/markdown_syntax/&#34;&gt;markdown&lt;/a&gt; syntax&lt;/h2&gt;
+
+&lt;p&gt;&lt;div&gt;&lt;a class=&#34;expander&#34; href=&#34;#&#34;&gt;click to expand&lt;/a&gt;
+&lt;div class=&#34;hidedcontent&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;[like this](http://someurl)
+[like this](http://someurl &amp;quot;this title shows up when you hover&amp;quot;)
+
+
+*this is in italic*  and _so is this_
+**this is in bold**  and __so is this__
+***this is bold and italic***  and ___so is this___
+&amp;lt;s&amp;gt;this is strike through text&amp;lt;/s&amp;gt;
+
+A carriage return
+makes a line break.
+
+Two carriage returns make a new paragraph.
+
+&amp;gt; Use it if you&#39;re quoting a person, a song or whatever.
+
+&amp;gt; You can use *italic* or lists inside them also.
+And just like with other paragraphs,
+all of these lines are still
+part of the blockquote, even without the &amp;gt; character in front.
+
+To end the blockquote, just put a blank line before the following
+paragraph.
+
+ * an asterisk starts an unordered list
+ * and this is another item in the list
+ +  or you can also use the + character
+ - or the - character
+    * just indent by 4 spaces (or tab) to make a sub-list
+        1. keep indenting for more sub lists
+    * here i&#39;m back to the second level
+
+Tables
+  First Header  | Second Header
+  ------------- | -------------
+  Content Cell  | Content Cell
+  Content Cell  | Content Cell
+
+Images
+  ![alternate text](https://sourceforge.net/images/icon_linux.gif)
+  ![tiny arrow](https://sourceforge.net/images/icon_linux.gif &amp;quot;tiny arrow&amp;quot;)
+  [[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]
+  &amp;lt;b&amp;gt;this will be bold&amp;lt;/b&amp;gt;
+
+Headers
+# this is a huge header #
+## this is a smaller header ##
+### this is even smaller ###
+#### more small ####
+##### even smaller #####
+###### smallest still: `&amp;lt;h6&amp;gt;` header
+
+[TOC]
+
+# Section 1
+## Sub-section 1
+# Section 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;For simple expand, use shortcode divexpand or hidexpand (inline), where % means parsed the markdown and &amp;lt; means do not, for inline expand, use &amp;lt;div&amp;gt; tag to make a block.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

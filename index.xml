@@ -340,6 +340,7 @@ Classe préparatoire au lycée Janson de Sailly (Paris).&lt;/p&gt;&lt;/li&gt;
 
 &lt;ul&gt;
 &lt;li&gt;A random Schrödinger operator associated with the Vertex Reinforced Jump Process on infinite graphs. (joint with C.Sabot &lt;a href=&#34;http://arxiv.org/abs/1507.07944&#34;&gt;arXiv :1507.07944&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Hitting times of interacting drifted Brownian motions and the vertex reinforced jump process (&lt;em&gt;joint with C.Sabot&lt;/em&gt;&lt;a href=&#34;https://arxiv.org/abs/1704.05394&#34;&gt;arXiv :1704.05394&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -534,11 +535,11 @@ Aussois.&lt;/li&gt;
       <guid>/teaching/</guid>
       <description>
 
-&lt;h3 id=&#34;current-teaching:416f445d9bade50adf875443b512ceeb&#34;&gt;Current teaching&lt;/h3&gt;
+&lt;h3 id=&#34;current-teaching-http-www-smbc-comics-com-comic-how-math-works:416f445d9bade50adf875443b512ceeb&#34;&gt;Current &lt;a href=&#34;http://www.smbc-comics.com/comic/how-math-works&#34;&gt;teaching&lt;/a&gt;&lt;/h3&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;former-teaching:416f445d9bade50adf875443b512ceeb&#34;&gt;Former teaching&lt;/h3&gt;
+&lt;h3 id=&#34;former-teaching-in-french:416f445d9bade50adf875443b512ceeb&#34;&gt;Former teaching (in French)&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;2015-2016&lt;/em&gt; Préparation agrégation &lt;a href=&#34;/2015/10/prepaagreg2015/&#34;&gt;Cours de proba&lt;/a&gt;, &lt;a href=&#34;/2015/10/agregoptiona2015/&#34;&gt;Option A&lt;/a&gt; (ENS de Lyon)&lt;/li&gt;
@@ -749,27 +750,21 @@ to &lt;em&gt;future&lt;/em&gt; generations.&lt;/li&gt;
       <guid>/works/</guid>
       <description>
 
-&lt;p&gt;I work on the linearly edge reinforced random walk, on the lattice. It is closely related to the Vertex reinforced jump process and a super-symmetry sigma model (the $H^{2|2}$-model). I am also interested in statistical mechanics, such as percolation (finite size criteria, noise sensitivity), polymer or sand pile model (limit shape), random band matrices (Anderson localization).&lt;/p&gt;
+&lt;p&gt;I work on the edge reinforced random walk and the vertex reinforced jump process. They are closely related to a super-symmetry sigma model (the $H^{2|2}$-model related to Anderson localization). My general interest is statistical mechanics.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;reinforced-random-walks:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;Reinforced random walks&lt;/h2&gt;
 
-&lt;h5 id=&#34;how-vertex-reinforced-jump-process-arises-naturally:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;How Vertex reinforced jump process arises naturally&lt;/h5&gt;
+&lt;h5 id=&#34;a-random-schrödinger-operator-associated-with-the-vertex-reinforced-jump-process-on-infinite-graphs-joint-with-c-sabot-arxiv-1507-http-arxiv-org-abs-1507-07944:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;A random Schrödinger operator associated with the Vertex Reinforced Jump Process on infinite graphs (&lt;em&gt;joint with C.Sabot&lt;/em&gt;) &lt;a href=&#34;http://arxiv.org/abs/1507.07944&#34;&gt;Arxiv 1507&lt;/a&gt;&lt;/h5&gt;
 
-&lt;p&gt;published in the &lt;a href=&#34;http://www.e-publications.org/ims/submission/AIHP/user/submissionFile/17881?confirm=1a3ada99&#34;&gt;Annales de l’Institut Henri Poincaré&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;hitting-times-of-interacting-drifted-brownian-motions-and-the-vertex-reinforced-jump-process-joint-with-c-sabot-arxiv-1704-https-arxiv-org-abs-1704-05394:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;Hitting times of interacting drifted Brownian motions and the vertex reinforced jump process (&lt;em&gt;joint with C.Sabot&lt;/em&gt;) &lt;a href=&#34;https://arxiv.org/abs/1704.05394&#34;&gt;Arxiv 1704&lt;/a&gt;&lt;/h5&gt;
 
-&lt;h5 id=&#34;the-vertex-reinforced-jump-process-and-a-random-schrödinger-operator-on-finite-graphs-joint-with-c-sabot-p-tarrès:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;The Vertex Reinforced Jump Process and a Random Schrödinger operator on finite graphs (&lt;em&gt;joint with C.Sabot, P.Tarrès&lt;/em&gt;)&lt;/h5&gt;
+&lt;h5 id=&#34;the-vertex-reinforced-jump-process-and-a-random-schrödinger-operator-on-finite-graphs-joint-with-c-sabot-p-tarrès-annals-of-probability-http-www-e-publications-org-ims-submission-aop-user-submissionfile-25264-confirm-fdb5e6a5:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;The Vertex Reinforced Jump Process and a Random Schrödinger operator on finite graphs.(&lt;em&gt;joint with C.Sabot, P.Tarrès&lt;/em&gt;, &lt;a href=&#34;http://www.e-publications.org/ims/submission/AOP/user/submissionFile/25264?confirm=fdb5e6a5&#34;&gt;Annals of Probability&lt;/a&gt;)&lt;/h5&gt;
 
-&lt;p&gt;published in the &lt;a href=&#34;http://www.e-publications.org/ims/submission/AOP/user/submissionFile/25264?confirm=fdb5e6a5&#34;&gt;Annals of Probability&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;speed-of-vertex-reinforced-jump-process-on-galton-watson-trees-joint-with-x-chen-journal-of-theoretical-probability-http-arxiv-org-abs-1511-01880:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;Speed of Vertex reinforced jump process on Galton-Watson trees (&lt;em&gt;joint with X.Chen&lt;/em&gt; &lt;a href=&#34;http://arxiv.org/abs/1511.01880&#34;&gt;Journal of Theoretical Probability&lt;/a&gt;)&lt;/h5&gt;
 
-&lt;h5 id=&#34;a-random-schrödinger-operator-associated-with-the-vertex-reinforced-jump-process-on-infinite-graphs-joint-with-c-sabot:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;A random Schrödinger operator associated with the Vertex Reinforced Jump Process on infinite graphs (&lt;em&gt;joint with C.Sabot&lt;/em&gt;)&lt;/h5&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://arxiv.org/abs/1507.07944&#34;&gt;http://arxiv.org/abs/1507.07944&lt;/a&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;speed-of-vertex-reinforced-jump-process-on-galton-watson-trees-joint-with-x-chen:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;Speed of Vertex reinforced jump process on Galton-Watson trees (&lt;em&gt;joint with X.Chen&lt;/em&gt;)&lt;/h5&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://arxiv.org/abs/1511.01880&#34;&gt;http://arxiv.org/abs/1511.01880&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;how-vertex-reinforced-jump-process-arises-naturally-annales-de-l-institut-henri-poincaré-http-www-e-publications-org-ims-submission-aihp-user-submissionfile-17881-confirm-1a3ada99:5581952c111a7bf1180b42c7df1ca3f2&#34;&gt;How Vertex reinforced jump process arises naturally. (&lt;a href=&#34;http://www.e-publications.org/ims/submission/AIHP/user/submissionFile/17881?confirm=1a3ada99&#34;&gt;Annales de l&amp;rsquo;institut Henri Poincaré&lt;/a&gt;)&lt;/h5&gt;
 
 &lt;hr /&gt;
 

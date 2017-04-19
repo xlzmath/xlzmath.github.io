@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+  <title> Use emacs to edit latex code  &middot; Xiaolin ZENG&#39;s </title>
+
+  
+  <link rel="stylesheet" href="/css/poole.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Xiaolin ZENG&#39;s" />
+
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Raleway']
+      }
+    });
+  </script>
+
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+},
+ messageStyle: "none",
+  "HTML-CSS": { 
+      preferredFont: "TeX", 
+      availableFonts: ["STIX","TeX"], 
+      styles: {"": {color: "#180707"}} 
+      }
+});
+  </script>
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += '.has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="/js/prettify.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/simple-expand.js"></script>
+
+<script type="text/javascript">
+        $(function () {
+            $('.expander').simpleexpand();
+            prettyPrint();
+        });
+    </script>
+</head>
+
+<body>
+
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <p class="lead"><a href="/">Xiaolin ZENG&#39;s</a></p>
+      <p class="lead">
+       home page 
+      </p>
+    </div>
+<img src="https://xlzmath.github.io/escher.jpg">
+<ul class="sidebar-nav">
+ 
+        <li><a href="/works/"> Research </a></li>
+                    
+        <li><a href="/teaching/"> Teaching </a></li>
+                    
+        <li><a href="/cv/"> Brief cv </a></li>
+                           
+</ul>
+      
+      
+      
+      <a href="https://github.com/xlzmath"><i class="fa fa-github-square"></i></a>&nbsp;&nbsp;
+    
+    <a href="/"><i class="fa fa-envelope-o"></i></a>
+       </div>
+</div>
+
+
+  <div class="content container">
+    <div class="post">
+    <h1 class="post-title">Use emacs to edit latex code</h1>
+    <hr />
+    
+    
+
+<h4 id="what-is-emacs:b9a36cf89bd3d9a7e2ec0e4276b489ac">What is emacs?</h4>
+
+<p>Emacs is a <a href="https://en.wikipedia.org/wiki/Emacs_Lisp">elisp</a> interpreter equipped with some pre-compiled text edit features. This means that it is a text editor which you can hack in any direction you want. But we are just someone on the street, we know nothing about lisp programming. Yet no problem, we don&rsquo;t have to, it is already done by the <a href="https://melpa.org/#/">community</a>, they call these hacks <em>packages</em>.</p>
+
+<h4 id="pros-and-cons-why-should-i-even-consider-to-switch-from-my-favorite-ide-to-this-software-even-older-than-me:b9a36cf89bd3d9a7e2ec0e4276b489ac">Pros and cons (why should I even consider to switch from my favorite IDE to this software even older than me?)</h4>
+
+<ul>
+<li>Pros
+
+<ul>
+<li>emacs adapts you (by its definition)</li>
+<li>very efficient for repetitive text processing</li>
+<li>fully customizable</li>
+<li><a href="http://ergoemacs.org/emacs/Matz_Ruby_how_emacs_changed_my_life.html">somebody</a> even claims that emacs change their life</li>
+</ul></li>
+<li>Cons
+
+<ul>
+<li>painful <a href="http://mrozekma.com/editor-learning-curve.png">learning curve</a></li>
+<li>strange short cuts (especially you have to forget about Ctrl+c, Ctrl+v)</li>
+<li>not very cross-platform since it is designed for *nux system, os-x is still ok, lesser windows support (there are walkarounds)</li>
+</ul></li>
+</ul>
+
+<h4 id="list-of-recommended-packages:b9a36cf89bd3d9a7e2ec0e4276b489ac">List of recommended packages</h4>
+
+<ul>
+<li>auctex <em>Major mode</em> for latex writing</li>
+<li>latex-extra</li>
+<li>yasnippet</li>
+<li>expand-region</li>
+<li>reftex</li>
+<li>company</li>
+<li>helm</li>
+<li>flycheck</li>
+<li>undo-tree</li>
+<li>org</li>
+<li>ispell</li>
+<li>swiper</li>
+</ul>
+
+<h4 id="config-files:b9a36cf89bd3d9a7e2ec0e4276b489ac">Config files</h4>
+
+<p>To appear, for instant, check emacs starter kits.</p>
+
+<h4 id="examples-that-all-are-explained:b9a36cf89bd3d9a7e2ec0e4276b489ac">Examples that all are explained</h4>
+
+<p>To appear</p>
+
+<h4 id="quickstart-guide:b9a36cf89bd3d9a7e2ec0e4276b489ac">Quickstart guide</h4>
+
+<ul>
+<li>Read the book <a href="https://www.masteringemacs.org/">Mastering emacs</a>, learn basics about emacs.</li>
+<li>Use one of many shared configurations.</li>
+<li>Prepare for jet-pack.</li>
+</ul>
+
+<h4 id="links:b9a36cf89bd3d9a7e2ec0e4276b489ac">Links</h4>
+
+<ul>
+<li><a href="https://plus.google.com/communities/114815898697665598016">Emacs g+ group</a></li>
+<li><a href="https://emacs.zeef.com/ehartc?ref=robert.thorpe">Emacs by Ernst de Hart</a></li>
+<li><a href="http://endlessparentheses.com/">Endless Parentheses</a></li>
+</ul>
+
+    
+
+     
+	
+    <div id="disqus_thread"></div>
+<div id="disqus_loader" style="text-align: center">
+  <button onclick="load_disqus()" style="background-color:#FFFFFF; color:#546A8C; font-family:'Raleway,sans-serif'; font-size: 16px;">Load Disqus Comments</button>
+  <script>
+    function load_disqus()
+    {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = "http://persoenslyonfrxiaolinzeng.disqus.com/embed.js";
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      var ldr = document.getElementById('disqus_loader');
+      ldr.parentNode.removeChild(ldr);
+    }
+  </script>
+</div>
+
+</div>
+</div> 
+
+</body>w
+</html>
